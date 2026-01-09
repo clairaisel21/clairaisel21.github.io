@@ -1,0 +1,87 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f4f4f4;
+  color: #333;
+}
+
+/* Header */
+header {
+  background: black;
+  color: white;
+  text-align: center;
+  padding: 2rem;
+}
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+header p {
+  margin: 0.5rem 0;
+  font-style: italic;
+}
+
+/* Navigation Buttons */
+nav button {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+}
+nav button:hover {
+  background-color: #c0392b;
+}
+
+/* Sections */
+section {
+  padding: 2rem;
+  text-align: center;
+}
+section h2 {
+  color: #e74c3c;
+  margin-bottom: 1rem;
+}
+
+/* Products */
+.product {
+  display: inline-block;
+  margin: 1rem;
+  background: white;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+.product img {
+  width: 250px;
+  height: auto;
+  border-radius: 5px;
+}
+.product h3 {
+  margin: 0.5rem 0;
+  color: #2c3e50;
+}
+.product p {
+  font-weight: bold;
+  color: #27ae60;
+}
+
+/* Gallery */
+#gallery img {
+  width: 200px;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+/* Footer */
+footer {
+  background: #222;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
